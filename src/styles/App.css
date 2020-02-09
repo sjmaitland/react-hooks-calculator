@@ -1,0 +1,122 @@
+body {
+  background-color: #fcf8ff;
+  font-family: sans-serif;
+}
+
+.calculator {
+  width: 25%;
+  margin: 2em auto; }
+
+.row__display {
+  width: 100%;
+}
+
+.row__display div:first-of-type {
+  height: 1em;
+  width: 60.5%;
+  background-color: #07000c;
+  color: #fff;
+  font-size: 3.7em;
+  padding: 0.5em 0.75em;
+  text-align: right;
+  border-radius: 3px;
+  border: 1px solid #07000c;
+  box-shadow: 5px 5px 5px #808080;
+  margin-bottom: 3px;
+}
+
+.row__display div:nth-of-type(2) {
+  height: 0.75em;
+  width: 80.5%;
+  background-color: #34005b;
+  color: #fff;
+  font-size: 1.25em;
+  padding: 1em 0.5em 1.25em 0.5em;
+  text-align: center;
+  border-radius: 3px;
+  border: 1px solid #34005b;
+  box-shadow: 5px 5px 5px #808080;
+  margin-bottom: 3px;
+
+}
+
+.calculator__btns {
+  display: grid;
+  grid-gap: 1px;
+  grid-template-columns: max-content;
+}
+
+button {
+  width: 3em;
+  height: 3em;
+  border-radius: 3px;
+  font-size: 1.5em;
+  box-shadow: 5px 5px 5px #808080;
+  margin-right: 3px;
+  margin-bottom: 3px;
+  font-weight: bold;
+}
+
+.btn__row--1 button {
+  background-color: #560096;
+  color: #fff;
+  border: 1px solid #560096;
+}
+
+.btn__row--1 button:hover,
+.btn__row--1 button:focus {
+  background-color: #fff;
+  color: #560096;
+}
+
+.btn__row--2 button {
+  background-color: #8400e4;
+  color: #fff;
+  border: 1px solid #8400e4;
+}
+
+.btn__row--2 button:hover,
+.btn__row--2 button:focus {
+  background-color: #fff;
+  color: #8400e4;
+}
+
+.btn__row--3 button {
+  background-color: #a934ff;
+  color: #fff;
+  border: 1px solid #a934ff;
+}
+
+.btn__row--3 button:hover,
+.btn__row--3 button:focus {
+  background-color: #fff;
+  color: #a934ff;
+}
+
+.btn__row--4 button {
+  background-color: #ca82ff;
+  color: #07000c;
+  border: 1px solid #ca82ff;
+}
+
+.btn__row--4 button:hover,
+.btn__row--4 button:focus {
+  background-color: #07000c;
+  color: #ca82ff;
+}
+
+.btn__row--5 button {
+  background-color: #e3bdff;
+  color: #07000c;
+  border: 1px solid #e3bdff;
+}
+
+.btn__row--5 button:hover,
+.btn__row--5 button:focus {
+  background-color: #07000c;
+  color: #e3bdff;
+}
+
+.btn--equals {
+  width: 49%;
+}
